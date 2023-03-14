@@ -1,21 +1,21 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
-  background-color: #e5e5e5;
 }
 
 .main {
+	padding: 12px;
   display: flex;
   flex-direction: row-reverse;
-  height: 1400px;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
+		background-color: #f7fff7;
 }
 
 .main_content {
   padding: 105px 90px;
   background-color: #ffffff;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	box-shadow: 10px 10px 77px 13px rgba(0, 0, 0, 0.11);
 }
 
 /* about */
@@ -89,6 +89,7 @@ body {
 .sidebar {
   width: 370px;
   background-color: #1e2939;
+	box-shadow: 10px 10px 77px 13px rgba(0, 0, 0, 0.11);
 }
 
 .photo {
